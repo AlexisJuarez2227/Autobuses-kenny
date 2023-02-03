@@ -1,0 +1,43 @@
+.contenedor{
+    width: 30%;
+    height: 30%;
+    box-shadow: 1px 2px 15px 2px ;
+    background-color: rgb(96, 95, 171);
+    
+   margin-top: 10%;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    text-align: center;
+}
+.logo{
+  
+    margin-top: 10%;
+    width: 34%;
+    
+    
+   
+    border-radius: 50% 50% 50% 50%;
+   
+    
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boton{
+    margin-top: 5%;
+    width: 60%;
+
+}
+
+.input{
+    width: 70%;
+}
+
+.label{
+    margin-right: 25%;
+}
