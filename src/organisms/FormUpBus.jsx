@@ -53,7 +53,7 @@ function FormUpBus() {
             fetch(endpoint, options) 
             .then(response => response.json())
             .then(data => {
-                alert(JSON.stringify(data))
+                alert(data.message)
             })
         }
 

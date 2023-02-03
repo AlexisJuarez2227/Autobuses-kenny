@@ -58,7 +58,7 @@ function FormRegister() {
            }
                else{
  
-                alert(JSON.stringify(data))
+                alert(data.message)
                 navigate('/login')
                }
           

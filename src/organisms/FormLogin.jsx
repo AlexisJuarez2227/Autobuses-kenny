@@ -62,7 +62,7 @@ function FormLogin() {
                    }
                else if(data.usuariosC.usuario==newForm.get('usuario')&&data.usuariosC.contrasenia==newForm.get('contrasenia')){
                 alert("Eres tu!")
-                alert(JSON.stringify(data))
+                alert(data.message)
                navigate('/upBus')
                }
                
